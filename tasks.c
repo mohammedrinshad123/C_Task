@@ -1,9 +1,9 @@
 /// multiply two numbers
 
-
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int num5, num7, product;
 
     printf("Enter two integers: ");
@@ -20,7 +20,8 @@ int main() {
 //// calculate the average of three numbers.
 #include <stdio.h>
 
-int main() {
+int main()
+{
     float num1, num2, num3, average;
 
     printf("Enter three numbers: ");
@@ -37,19 +38,21 @@ int main() {
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int num;
     printf("Enter an integer: ");
     scanf("%d", &num);
 
     // Checking if the number is even or odd
-    if (num % 2 == 0) {
+    if (num % 2 == 0)
+    {
         printf("%d is even.\n", num);
-    } else {
+    }
+    else
+    {
         printf("%d is odd.\n", num);
     }
 
     return 0;
 }
-
-
